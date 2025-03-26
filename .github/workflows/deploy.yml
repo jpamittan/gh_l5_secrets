@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - dev
+  workflow_dispatch:
 env:
   MONGODB_DB_NAME: gha-demo
 jobs:
@@ -12,7 +13,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.ozy9whd.mongodb.net
       MONGODB_USERNAME: jays
-      MONGODB_PASSWORD: "{r922&bS5w,4C!u6&]\\>!mGl76_TH@gJ"
+      MONGODB_PASSWORD: tz4rHOBYKFp4cw5C
       PORT: 8080
     steps:
       - name: Get Code
